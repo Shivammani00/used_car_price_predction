@@ -2,11 +2,13 @@
 
 ----Overview---
 
-This project is a machine learning-based web application that predicts the price of a used car based on its features. It uses a Random Forest Regression model to provide accurate predictions and is deployed using Flask for easy accessibility.
+   This project is a machine learning-based web application that predicts the price of a used car based on its features. It uses a Random Forest Regression model to provide accurate predictions and is deployed 
+   using Flask for easy accessibility.
 
 ------Features-------
 
 Predicts the price of a used car based on:
+
   Number of years driven
   Original purchase price
   Number of previous owners
@@ -17,6 +19,7 @@ Predicts the price of a used car based on:
 User-friendly interface developed with Flask. Provides insights into car pricing trends.
 
 ----Technology Stack-----
+
   Programming Language: Python
   Framework: Flask
   Machine Learning Algorithm: Random Forest Regression
@@ -24,15 +27,17 @@ User-friendly interface developed with Flask. Provides insights into car pricing
   Visualization: Matplotlib, Seaborn
   
 ----Dataset-----
+
 The dataset used in this project is stored at: D:/College_pro/car data.csv-------------any one can use it according to their file name where they are saving it--
 
 ------Model Training---------
+
 Data Preprocessing:
 
-Handled missing values.
-Encoded categorical variables using One-Hot Encoding and Label Encoding.
-Scaled numerical features.
-Split the dataset into training and testing sets.
+    Handled missing values.
+    Encoded categorical variables using One-Hot Encoding and Label Encoding.
+    Scaled numerical features.
+    Split the dataset into training and testing sets.
 
 - Model Selection:
         Chose Random Forest Regression for its accuracy and robustness.
@@ -54,6 +59,7 @@ Optimized the model using GridSearchCV.
   Limited to the features available in the dataset.
   
 -----Future Enhancements------
+
   Add more features like car brand, model, and condition.
   Use advanced algorithms like XGBoost for better accuracy.
   Deploy the application to a cloud platform for public access.
