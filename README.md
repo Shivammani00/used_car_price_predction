@@ -7,7 +7,6 @@ This project is a machine learning-based web application that predicts the price
 ------Features-------
 
 Predicts the price of a used car based on:
-
   Number of years driven
   Original purchase price
   Number of previous owners
@@ -18,18 +17,16 @@ Predicts the price of a used car based on:
 User-friendly interface developed with Flask. Provides insights into car pricing trends.
 
 ----Technology Stack-----
-
   Programming Language: Python
   Framework: Flask
   Machine Learning Algorithm: Random Forest Regression
   Data Analysis: Pandas, NumPy, Seaborn
   Visualization: Matplotlib, Seaborn
+  
 ----Dataset-----
-
 The dataset used in this project is stored at: D:/College_pro/car data.csv-------------any one can use it according to their file name where they are saving it--
 
 ------Model Training---------
-
 Data Preprocessing:
 
 Handled missing values.
